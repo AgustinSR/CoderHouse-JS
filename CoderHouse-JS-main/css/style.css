@@ -1,0 +1,212 @@
+
+html, body{
+  height: 100%;
+}
+
+body {
+  background-color: #121e22;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo h1 {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  padding: 0 1rem;
+  white-space: nowrap;
+}
+
+
+.nav{
+  display: flexbox;
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0;
+  flex-direction: row;
+  padding: 1rem 2rem;
+  border-bottom: 2px black solid;
+  box-shadow: 0 4px 6px -2px black;
+  background-color: #463420;
+}
+.navlinks {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  flex-wrap: 0;
+  gap: 1.5rem;
+  flex-direction: 0;
+  background-color: #463420;
+}
+.navlinks a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 1rem;
+  white-space: nowrap;
+  border: #fff 2px solid;
+}
+
+.footerepico {
+  background-color: rgb(21, 21, 21);
+  padding: 2rem;
+  color: rgb(243, 227, 198);
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 0;
+}
+.footerepico .containersocial {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.footerepico .copyright {
+  margin-bottom: 1rem;
+}
+
+.btnVerCarrito {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  flex: 1;
+  color: white;
+}
+
+.listaProductos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-arma {
+  background-color: #121e22;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-arma img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 1rem;
+  border: 2px solid #fff;   
+  border-radius: 8px;       
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.card-arma h3 {
+  color:white;
+  margin: 0.5rem 0;
+  font-size: 1.2em;
+}
+.card-arma p {
+  font-size: 1em;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.card-arma button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.carrito-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+  
+}
+
+
+.carrito-lista li {
+  background: #222;
+  color: #fff;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+
+.remover-del-carrito-btn {
+  background: #b05500;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.remover-del-carrito-btn:hover {
+  background: #ff6b00;
+}
+
+
+.carrito-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.carrito-modal {
+  background: #1c1c1c !important; 
+  color: #fff !important;         
+  border-radius: 12px;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.carrito-title {
+  color: #ff9900;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.carrito-html {
+  color: #fff;
+  text-align: center;
+}

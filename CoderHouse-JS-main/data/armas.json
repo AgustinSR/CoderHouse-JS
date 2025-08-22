@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Daga",
+    "precio": 250,
+    "ataque": 115,
+    "defensa": 1,
+    "velocidad": 10,
+    "img": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/Dagger2.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Espada",
+    "precio": 350,
+    "ataque": 120,
+    "defensa": 5,
+    "velocidad": 2,
+    "img": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Lucero del Alba",
+    "precio": 600,
+    "ataque": 215,
+    "defensa": 3,
+    "velocidad": 0,
+    "img": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/flail_weapon_elden_ring_wiki_guide_200px.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Puños Americanos",
+    "precio": 300,
+    "ataque": 110,
+    "defensa": 5,
+    "velocidad": 13,
+    "img": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/caestus_fist_weapon_elden_ring_wiki_guide_200px.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Escudo",
+    "precio": 280,
+    "ataque": 115,
+    "defensa": 50,
+    "velocidad": 0,
+    "img": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/round_shield_medium_shield_elden_ring_wiki_guide_200px.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Mandoble",
+    "precio": 800,
+    "ataque": 310,
+    "defensa": 10,
+    "velocidad": 0,
+    "img": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/greatsword_colossal_swords_elden_ring_wiki_guide_200px.png"
+  }
+]
